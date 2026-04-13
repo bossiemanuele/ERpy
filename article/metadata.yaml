@@ -1,0 +1,116 @@
+# To be filled by the author(s) at the time of submission
+# -------------------------------------------------------
+
+# Title of the article:
+#  - For a successful replication, it shoudl be prefixed with "[Re]"
+#  - For a failed replication, it should be prefixed with "[¬Re]"
+#  - For other article types, no instruction (but please, not too long)
+title: "ERpy: Python Implementation of Entropic Regression for Nonlinear System Identification"
+
+# List of authors with name, orcid number, email and affiliation
+# Affiliation "*" means contact author
+authors:
+  - name: Emanuele Bossi
+    orcid: 0009-0003-2204-6966
+    email: bossie@my.erau.edu
+    affiliations: 1*
+
+# List of affiliations with code (corresponding to author affiliations), name
+# and address. You can also use these affiliations to add text such as "Equal
+# contributions" as name (with no address).
+affiliations:
+  - code:    1
+    name:    Embry-Riddle Aeronautical University
+    address: Prescott, Arizona, USA
+
+
+# List of keywords (adding the programming language might be a good idea)
+keywords: Entropic Regression, System Identification, Python
+
+# Code URL and DOI (url is mandatory for replication, doi after acceptance)
+# You can get a DOI for your code from Zenodo,
+#   see https://guides.github.com/activities/citable-code/
+code:
+  - url: https://github.com/bossiemanuele/ERpy
+  - doi: 
+
+# Date URL and DOI (optional if no data)
+data:
+  - url:
+  - doi:
+
+# Information about the original article that has been replicated
+replication:
+ - cite: Abd AlRahman R. AlMomani, Jie Sun, Erik Bollt; How entropic regression beats the outliers problem in nonlinear system identification. Chaos 1 January 2020; 30 (1): 013107. https://doi.org/10.1063/1.5133386
+ - bib:  almomani2020entropic
+ - url:  https://watermark02.silverchair.com/013107_1_accepted_manuscript.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAuQwggLgBgkqhkiG9w0BBwagggLRMIICzQIBADCCAsYGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMSF1ZIl0H2mR_sRM5AgEQgIICl0oDIFI6CJxUjW5ufglMiUgem-YEfPYglA-3y9IfKEr5koX1wBConAs5bIOlt1UWSftkqSSAxDty3iTOBqXzoqppElLKLPWDUGkumWB8UzNtMIyeKBjZUjPE4HJhNNYuD_WjIk8ZwjwfkyqDdPYIlOFH6Hc7SHgtWJ2tehwy1WvStZgjt-ixS7B6mJ1XmI6barZdO2MOM0747OnMHzQOJ1Je3QYnsWwrfnJBitrVJlPUCSwIzLQ6TVSf-zZAB0Fwq5-VDPxj9xj-D6HjF9ERBgdQaZCR38QfKkLG9_iHdkfPunOnkWsbJE7vI-QbRLiS6JcmYO7CAlK-z4PyPKE2q7TTuqmyX-3M2EmhktI8_cad7mCCMlMgGU0w_--lFvenu24-EsVq5iltNT-AIdDdmEivRODx6UVU7PPzWMdrmzC3DqQ7URnQQSWfeddkdc-bjMLSahAkgsFnWAKcA_S3sGo7qpIdXMLibdVmOEAcE1XWaJ1zgD7wp79JvBEXEqke2D6W4fXZobhG7_QXYPcZCEsyWZMrWoriirKadPlWNL0LHmEjBxL4erunZ89Jd0Txh5moLu0nStQrzM3Yk9nIxWFCau9V7owNGy8ebtaPMpsVMoqXMtgQuVCQawGE-1Mg9eAbq8pRK4aKgRYicyghNVleim7UgJ7mUYgS6rLeOqFkLAVtEYhQiL5nUCdX9qO6b2spSULZwYixKwHxGDPrna1suxI2RwayhJ3Gg86ClCPy7N2LFb8H0qrV3BxIeESepW8V6mWo864XDxbaNpy4l71M-PavhfKfcWsByXO8-DKGwRvpdfWJaKovJitSxKwtiyxA6EWO7xAWYKR3f84KZ936PsQGTriQML4hgCihrYDA_Owfkwu7iQ
+ - doi:  https://doi.org/10.1063/1.5133386
+
+# Don't forget to surround abstract with double quotes
+abstract: "Entropic Regression (ER) is an information-theoretic framework for sparse model
+          discovery that leverages mutual information and conditional mutual information to identify 
+          relevant functional dependencies in dynamical systems.
+          In ER, these information-theoretic quantities are evaluated in conjunction with regression fitting, 
+          where dependencies are assessed through residual-based relationships rather than direct variable comparisons. 
+          Despite its potential, accessible and lightweight implementations of ER in Python are currently limited, 
+          hindering reproducibility and integration with modern data-driven workflows.
+          In this paper, we present \texttt{ERpy}, a concise and faithful Python implementation of the 
+          Entropic Regression framework that replicates the original methodology. This implementation aims 
+          to facilitate reproducibility, support rapid experimentation, and enable broader adoption of Entropic 
+          Regression within the scientific and engineering communities.
+          The entire codebase is released under the MIT license and is available on GitHub at https://github.com/bossiemanuele/ERpy."
+
+# Bibliography file (yours)
+bibliography: biblio.bib
+  
+# Type of the article
+# Type can be:
+#  * Editorial
+#  * Letter
+#  * Replication
+type: Replication
+
+# Scientific domain of the article (e.g. Computational Neuroscience)
+#  (one domain only & try to be not overly specific)
+domain: Complex Systems
+
+# Coding language (main one only if several)
+language: Python
+
+  
+# To be filled by the author(s) after acceptance
+# -----------------------------------------------------------------------------
+
+# For example, the URL of the GitHub issue where review actually occured
+review: 
+  - url: 
+
+contributors:
+  - name:
+    orcid: 
+    role: editor
+  - name:
+    orcid:
+    role: reviewer
+  - name:
+    orcid:
+    role: reviewer
+
+# This information will be provided by the editor
+dates:
+  - received:  November 1, 2018
+  - accepted:
+  - published: 
+
+# This information will be provided by the editor
+article:
+  - number: # Article number will be automatically assigned during publication
+  - doi:    # DOI from Zenodo
+  - url:    # Final PDF URL (Zenodo or rescience website?)
+
+# This information will be provided by the editor
+journal:
+  - name:   "ReScience C"
+  - issn:   2430-3658
+  - volume: 4
+  - issue:  1
