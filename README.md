@@ -127,6 +127,12 @@ pytest tests/test_basic.py
 
 ```text
 ERpy/
+├── article/
+│   ├── fig/
+│   ├── ERpy_Paper.pdf
+│   ├── biblio.bib
+│   ├── content.tex
+│   └── metadata.yaml
 ├── erfit/
 │   ├── __init__.py
 │   ├── data_generation.py
@@ -135,14 +141,17 @@ ERpy/
 │   ├── options.py
 │   ├── poly.py
 │   └── regression.py
+├── paper_reproduction/
+│   ├── Figure1.py
+│   ├── Figure2.py
+│   ├── Test.py
+│   └── test.md
 ├── tests/
 │   └── test_basic.py
-├── Figure1.py
-├── Figure2.py
-├── Test.py
-├── LICENSE.txt
-├── pyproject.toml
-└── README.md
+├── .gitattributes
+├── LICENSE
+├── README.md
+└── pyproject.toml
 ```
 
 ---
